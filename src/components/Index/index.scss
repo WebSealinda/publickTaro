@@ -1,0 +1,35 @@
+@import "../../flavor/out/dimens";
+@import "../../flavor/out/colors";
+.item-content {
+  display: flex;
+  flex-direction: row;
+  height: 184px;
+  box-sizing: content-box;
+  align-items: center;
+  margin-left: $spacing1;
+
+}
+.item-img{
+  height: 150px;
+  width: 150px;
+}
+.item-info{
+  height: 150px;
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: $spacing1;
+}
+.itemText1{
+  font-size: 26px;
+  color: $color1 ;
+}
+.itemText2{
+  font-size: 26px;
+  color: $color5 ;
+}
+.itemText3{
+  font-size: 26px;
+  color: $color7 ;
+}
